@@ -33,7 +33,7 @@ function Contact() {
     };
 
     try {
-      const response = await axios.post('https://myportfoliobackend-1974.onrender.com/api/postmessage', contactData);
+      const response = await axios.post('https://myportfolio-xoie.onrender.com/api', contactData);
       
       if (response) {
           setUploadStatus('success'); // Set success status

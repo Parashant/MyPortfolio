@@ -6,18 +6,18 @@ import git from '../assets/github.png';
 
 const Projects = () => {
   const projects = [
-      { title: "PK Weather application", 
+      { title: "Weather application", 
         description: "A weather application that provides real-time weather updates for any city worldwide. It fetches live data using APIs and displays temperature, humidity, and weather conditions with a clean and responsive user interface.", 
         color: "DC3545", 
         techs: ["React", "JavaScript", "API", "CSS"], 
         src: "https://github.com/Parashant/PK-Weather" },
-    { title: "PK Todo-Website", 
+    { title: "Todo-Website", 
       description: "A todo application that allows users to create, update, and delete daily tasks. It uses Node.js and MongoDB for backend data storage and provides a simple and user-friendly interface for task management.", 
       color: "FF5F1F", 
       techs: ["Node.js", "Express.js", "MongoDB", "JavaScript"], 
       src: "https://github.com/Parashant/PK-todo" },
     
-    { title: "PK News Website", 
+    { title: "News Website", 
       description: "A News application designed to keep you updated with the latest news from around the world. It offers a clean, responsive design and an engaging user experience for easy access to current events.", 
       color: "0066B2", 
       techs: ["React", "JavaScript", "API", "CSS"], 
